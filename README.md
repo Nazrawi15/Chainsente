@@ -24,7 +24,7 @@ Traditional DeFi ignores the infrastructure that most Africans rely on: **mobile
 
 ChainSente creates a bridge between Cardano DeFi and mobile money wallets (e.g. MTN, Airtel Money). Anyone can:
 
-- ✅ Collateralize ADA, DJED, or other assets
+- ✅ Collateralize ADA, DJED or other assets
 - 🔄 Receive loans in mobile money (USDT/USDC equivalents)
 - 📱 Repay loans via mobile wallet top-ups
 - 📊 Build credit history stored as DID + on-chain NFT
