@@ -13,7 +13,7 @@ Uganda has 30M+ mobile money users, but:
 
 - 📉 Lack access to affordable, short-term loans
 - 🚫 Can’t build credit on-chain
-- 🏦 Are excluded from crypto-backed lending tools
+- 🏦 Are excluded from crypto backed lending tools
 - 💱 Face unstable lending terms & opaque repayment
 
 Traditional DeFi ignores the infrastructure that most Africans rely on: **mobile money**.
