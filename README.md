@@ -38,7 +38,7 @@ Everything is Transparent, decentralized, and compatible with local economic beh
 | Component            | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
 | 🧱 Smart Contracts     | Built in Plutus. Handles collateral, loan issuance, repayments, and NFT credit logs |
-| 🪙 Stablecoin Lending | Loans issued in Cardano-native stablecoins (e.g. DJED, iUSD)                |
+| 🪙 Stablecoin Lending | Loans issued in Cardano-native stablecoins (e.g DJED, iUSD)                |
 | 📲 Mobile Integration | Works with Uganda’s mobile money APIs (via aggregators like Flutterwave)   |
 | 🧾 Credit Profile     | Unique NFT + DID to track borrower behavior and enable credit scoring       |
 | 🛂 Identity System     | Non-custodial, opt-in KYC via Atala PRISM or similar DID solution           |
