@@ -160,7 +160,7 @@ We believe in open finance. Fork it. Use it. Improve it.
 Want to help onboard Africa to DeFi?
 
 - 🧑‍🔧 Devs — integrate local wallets or help us expand to Kenya/Nigeria
-- 🧪 Pilots — NGOs, SACCOs, or savings groups
+- 🧪 Pilots — NGOs, SACCOs or savings groups
 - 💸 Donors — fund gas fees for microloans
 - 🔍 Reviewers — test smart contracts or KYC flow
 
