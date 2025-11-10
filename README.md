@@ -48,7 +48,7 @@ Everything is Transparent, decentralized, and compatible with local economic beh
 
 ## 💥 Why It Matters
 
-- 📍 Local-first: Built for mobile-first users, not browser wallet power users.
+- 📍 Local-first: Built for mobile first users, not browser wallet power users.
 - 🏦 Financial inclusion: First-time borrowers get access to DeFi without needing banks.
 - 💼 Real credit: Repayment behavior builds a blockchain-verifiable credit file.
 - 🤝 Trustless and trackable: All actions are visible on-chain.
