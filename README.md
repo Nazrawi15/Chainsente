@@ -1,7 +1,7 @@
 # 💸 ChainSente: Crypto Lending Meets Mobile Money in Uganda
 
 **On-chain lending, off-chain access.**  
-ChainSente is a Cardano-powered DeFi platform that enables users in Uganda to borrow stablecoins with mobile money and build credit on-chain  no bank account required.
+ChainSente is a Cardano-powered DeFi platform that enables users in Uganda to borrow stablecoins with mobile money and build credit on chain  no bank account required.
 
 > “Lend ADA, borrow USDC, repay with MTN. Chainsente brings DeFi to where it matters.”
 
