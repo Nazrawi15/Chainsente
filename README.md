@@ -107,7 +107,7 @@ Everything is Transparent, decentralized, and compatible with local economic beh
 - **Nasser Hassen** – Product Lead (Local finance + user testing)  
   [LinkedIn](https://www.linkedin.com/in/nasser-hassen-6856502a5/)
 
-- **Salm Salh** – Smart Contracts & DevOps  
+- **Salm Salh** – Smart Contracts and DevOps  
   [GitHub](https://github.com/salmsam1)
 
 - **Mobile Money Dev (TBA)** – API integration, Uganda telco compliance
