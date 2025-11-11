@@ -11,7 +11,7 @@ ChainSente is a Cardano-powered DeFi platform that enables users in Uganda to bo
 
 Uganda has 30M+ mobile money users but:
 
-- 📉 Lack access to affordable, short-term loans
+- 📉 Lack access to affordable, short term loans
 - 🚫 Can’t build credit on-chain
 - 🏦 Are excluded from crypto backed lending tools
 - 💱 Face unstable lending terms & opaque repayment
