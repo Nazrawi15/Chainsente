@@ -125,7 +125,7 @@ Every borrower gets a unique on-chain identity (optional) with:
 - Trust score
 - Privacy-preserving by design
 
-These credentials could later be used in other DeFi systems, local SACCOs, or fintech partners.
+These credentials could later be used in other DeFi systems, local SACCOs or fintech partners.
 
 ---
 
