@@ -1,0 +1,26 @@
+;; Borrow.aiken - borrow against collateral
+(use aiken/std)
+(use ./LoanTypes.aiken)
+
+(pub type BorrowRedeemer
+  [Borrow { amount_usd_cents: Int }
+   Adjust { new_max_ltv_bp: Int }])
+
+(validator borrow_validator
+  (spend [datum redeemer ctx tx]
+    (match datum
+      (Some (Collateral owner collateral_lovelace borrowed_usd_cents max_ltv_bp liquidation_bp nonce))
+        (match redeemer
+          (Borrow { amount_usd_cents })
+            (let ((new_borrowed (+ borrowed_usd_cents amount_usd_cents)))
+              ;; off-chain must supply oracle as reference; check it's present
+              (let ((oracle (tx.find_reference_input tx "oracle")))
+                (and (some? oracle)
+                     (let ((ada_price (expect_some (tx.get_reference_oracle_price tx))))
+                       (let ((coll_usd (collateral_usd_cents collateral_lovelace ada_price)))
+                         (and (<= (compute_ltv_bp new_borrowed coll_usd) max_ltv_bp)
+                              (list.has tx.extra_signatories owner)))))))
+          (Adjust { new_max_ltv_bp })
+            (and (list.has tx.extra_signatories owner) (>= new_max_ltv_bp 1000)))
+      _
+        (err "bad datum"))))
